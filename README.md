@@ -26,13 +26,16 @@ This project is a simple Streamlit-based web application that allows users to ge
    cd Stable-Diffusion
 
 2. **Set up a virtual environment:**
-   python -m venv .venv
+   ```bash
+    python -m venv .venv
    .venv\Scripts\activate
 
-3. **pip install -r requirements.txt**
+4. **Install dependencies:**
+   ```bash
    pip install -r requirements.txt
 
-4. **Running the Application**
-   `streamlit run app.py`
+6. **Running the Application**
+     ```bash
+   streamlit run app.py`
 
 Visit http://localhost:8501 in your web browser to view the app.
