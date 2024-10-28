@@ -16,8 +16,23 @@ This project is a simple Streamlit-based web application that allows users to ge
 - `transformers`
 - `Pillow`
 
-## Installation
-1. Clone the repository:
+
+### Installation
+
+1. **Clone the repository:**
+
    ```bash
-   git clone <repository_url>
-   cd project_folder
+   git clone https://github.com/kaleabMelkamu/Stable-Diffusion.git
+   cd Stable-Diffusion
+
+2. **Set up a virtual environment:**
+   python -m venv .venv
+   .venv\Scripts\activate
+
+3. **pip install -r requirements.txt**
+   pip install -r requirements.txt
+
+4. **Running the Application**
+   `streamlit run app.py`
+
+Visit http://localhost:8501 in your web browser to view the app.
